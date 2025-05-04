@@ -1,0 +1,123 @@
+/* Stranger Things inspired theme */
+
+/* Main title styles */
+.stTitle, .css-10trblm {
+    font-family: 'Courier New', monospace;
+    color: #e6194b !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #e6194b, 0 0 20px #e6194b;
+}
+
+/* Section header styles */
+h1, h2, h3 {
+    font-family: 'Courier New', monospace;
+    color: #e6194b !important;
+    letter-spacing: 1px;
+}
+
+/* Button styling */
+.stButton button {
+    font-family: 'Courier New', monospace;
+    background-color: #000 !important;
+    color: #e6194b !important;
+    border: 2px solid #e6194b !important;
+    border-radius: 2px !important;
+    padding: 0.5rem 1rem !important;
+    text-transform: uppercase !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton button:hover {
+    box-shadow: 0 0 8px #e6194b, 0 0 15px #e6194b !important;
+    transform: scale(1.02) !important;
+}
+
+/* Success message styling */
+.stSuccess {
+    background-color: rgba(0, 128, 0, 0.2) !important;
+    border: 1px solid green !important;
+    color: #0f0 !important;
+}
+
+/* Info message styling */
+.stInfo {
+    background-color: rgba(25, 25, 112, 0.2) !important;
+    border: 1px solid #1919a0 !important;
+    color: #a9c4eb !important;
+}
+
+/* Warning message styling */
+.stWarning {
+    background-color: rgba(255, 166, 0, 0.2) !important;
+    border: 1px solid orange !important;
+    color: #ffb700 !important;
+}
+
+/* Error message styling */
+.stError {
+    background-color: rgba(220, 0, 0, 0.2) !important;
+    border: 1px solid #e6194b !important;
+    color: #e6194b !important;
+}
+
+/* Sidebar styling */
+.css-1d391kg, .css-12oz5g7 {
+    background-color: #1e1e1e !important;
+    border-right: 1px solid #e6194b !important;
+}
+
+/* Make expander look like old TV static */
+.streamlit-expanderHeader {
+    background-color: #1e1e1e !important;
+    border: 1px solid #e6194b !important;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Metrics styling */
+.stMetric {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid #e6194b !important;
+    border-radius: 4px !important;
+    padding: 10px !important;
+}
+
+.stMetric label {
+    color: #e6194b !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stMetric .css-1wivap2 {
+    color: white !important;
+}
+
+/* Download button styling */
+.stDownloadButton button {
+    color: #e6194b !important;
+    background-color: black !important;
+    border: 1px solid #e6194b !important;
+}
+
+.stDownloadButton button:hover {
+    box-shadow: 0 0 8px #e6194b, 0 0 15px #e6194b !important;
+}
+
+/* Progress bar styling */
+.stProgress .css-1l4fpmm {
+    background-color: #e6194b !important;
+}
+
+/* DataFrames styling */
+.dataframe {
+    border: 1px solid #e6194b !important;
+}
+
+.dataframe th {
+    background-color: #1a1a1a !important;
+    color: #e6194b !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

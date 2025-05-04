@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#000" />
+  
+  <!-- Grid background -->
+  <g stroke="#333" stroke-width="1">
+    <path d="M0,50 L400,50" />
+    <path d="M0,100 L400,100" />
+    <path d="M0,150 L400,150" />
+    <path d="M0,200 L400,200" />
+    <path d="M0,250 L400,250" />
+    <path d="M50,0 L50,300" />
+    <path d="M100,0 L100,300" />
+    <path d="M150,0 L150,300" />
+    <path d="M200,0 L200,300" />
+    <path d="M250,0 L250,300" />
+    <path d="M300,0 L300,300" />
+    <path d="M350,0 L350,300" />
+  </g>
+  
+  <!-- Data Visualization Elements -->
+  <!-- Bar Chart -->
+  <g transform="translate(50, 60)">
+    <rect x="10" y="0" width="40" height="80" fill="#e6194b" />
+    <rect x="60" y="20" width="40" height="60" fill="#3cb44b" />
+    <rect x="110" y="40" width="40" height="40" fill="#ffe119" />
+    <rect x="160" y="10" width="40" height="70" fill="#4363d8" />
+    <rect x="210" y="30" width="40" height="50" fill="#f58231" />
+  </g>
+  
+  <!-- Line Chart -->
+  <g transform="translate(50, 180)" fill="none" stroke="#e6194b" stroke-width="3">
+    <path d="M10,60 L60,20 L110,40 L160,10 L210,30 L260,50" />
+    <circle cx="10" cy="60" r="4" fill="#e6194b" />
+    <circle cx="60" cy="20" r="4" fill="#e6194b" />
+    <circle cx="110" cy="40" r="4" fill="#e6194b" />
+    <circle cx="160" cy="10" r="4" fill="#e6194b" />
+    <circle cx="210" cy="30" r="4" fill="#e6194b" />
+    <circle cx="260" cy="50" r="4" fill="#e6194b" />
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="290" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle">DATA VISUALIZATION</text>
+</svg>
